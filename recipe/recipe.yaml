@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: tmuxp
-  version: "1.78.0"
+  version: "1.83.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: 3a4331b48ce455becd34a8c3cd24eea2879dd4533cb9606b9bf808d924be6736
+  sha256: 25c5a1ead49848864bf0c4aeb5a5f49a16f41a7e82074a58911120d8738f0c31
 
 build:
   # Seeing weird errors like the following on Windows, along with weird encoding.
